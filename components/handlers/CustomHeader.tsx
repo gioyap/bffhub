@@ -17,7 +17,7 @@ const CustomHeader = ({
 			<View style={styles.firstRow}>
 				<View style={styles.logoContainer}>
 					<Image
-						source={require("../assets/favicon.png")}
+						source={require("../../assets/favicon.png")}
 						style={styles.logo}
 					/>
 				</View>
