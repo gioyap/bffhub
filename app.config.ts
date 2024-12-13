@@ -6,11 +6,11 @@ export default {
 		slug: "bff-flawless",
 		version: "1.0.0",
 		orientation: "portrait",
-		icon: "./assets/icon.png",
+		icon: "./assets/favicon.png",
 		userInterfaceStyle: "light",
 		newArchEnabled: true,
 		splash: {
-			image: "./assets/splash-icon.png",
+			image: "./assets/favicon.png",
 			resizeMode: "contain",
 			backgroundColor: "#ffffff",
 		},

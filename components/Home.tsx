@@ -1,21 +1,16 @@
 import React from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 
-export default function BlankPage({ navigation }: { navigation: any }) {
+export default function Home() {
 	return (
-		<View style={styles.blankPageContainer}>
-			<Text style={styles.header}>Blank Page</Text>
-			{/* Hamburger Icon to open Drawer Menu */}
-			<TouchableOpacity
-				onPress={() => navigation.openDrawer()}
-				style={styles.hamburgerIcon}
-			></TouchableOpacity>
+		<View style={styles.homeContainer}>
+			<Text style={styles.header}>Home Page</Text>
 		</View>
 	);
 }
 
 const styles = StyleSheet.create({
-	blankPageContainer: {
+	homeContainer: {
 		flex: 1,
 		justifyContent: "center",
 		alignItems: "center",

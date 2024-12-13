@@ -118,7 +118,7 @@ export default function Account({ session }: { session: Session }) {
 	};
 
 	return (
-		<ScrollView style={styles.container}>
+		<ScrollView>
 			<Card containerStyle={styles.cardContainer}>
 				<View style={styles.avatarContainer}>
 					<Avatar
@@ -232,9 +232,6 @@ export default function Account({ session }: { session: Session }) {
 }
 
 const styles = StyleSheet.create({
-	container: {
-		marginBottom: 20,
-	},
 	avatarContainer: {
 		alignItems: "center", // Center the avatar
 		marginBottom: 20,
@@ -249,10 +246,9 @@ const styles = StyleSheet.create({
 	},
 	cardContainer: {
 		margin: 0,
-		padding: 20,
-		marginTop: 100,
-		borderTopLeftRadius: 45, // Rounded top-left corner
-		borderTopRightRadius: 45, // Rounded top-right corner
+		padding: 6,
+		paddingTop: 20,
+		paddingBottom: 20,
 		overflow: "hidden", // Ensures content respects rounded corners
 	},
 });
